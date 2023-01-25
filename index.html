@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hamburger AC</title>
+        <link rel="shortcut icon" href="./assets/img/hamburguer1.png"
+            type="image/x-icon">
+        <script defer src="./assets/js/index.js"></script>
+        <link rel="stylesheet" href="./assets/css/index.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    </head>
+    <body>
+
+        <nav class="navbar-container">
+            <img src="./assets/img/hamburguer1.png" alt="img-nav">
+
+            <div class="container-navbar">
+                <i class="bi bi-list"></i>
+                <div class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#sobremim">Sobre mim</a>
+                    <a href="#compras">Compras</a>
+                    <a href="#contato">Contato</a>
+                    <i class="bi bi-basket-fill"></i>
+                    <i class="bi bi-moon-stars-fill"></i>
+                </div>
+            </div>
+        </nav>
+
+        <header class="container-header-wrapper" id="home">
+            <img
+                src="https://img.freepik.com/fotos-gratis/delicioso-hamburguer-de-carne-com-queijo-em-fundo-escuro-de-vista-frontal_140725-89476.jpg?w=2000"
+                alt="img-header">
+            <div class="description-header">
+                <h1 class="title-header">Hamburger AC</h1>
+                <p class="description">Venha fazer parte dessa família também</p>
+                <a href="#sobremim">Saiba mais <i class="bi bi-arrow-down"></i></a>
+            </div>
+        </header>
+
+
+
+        <main class="container-main">
+
+            <section class="container-sobremim-wrapper" id="sobremim">
+                <h1 class="title-sobremim">Sobre mim</h1>
+
+                <div class="container-sobremim">
+                    <div class="group-sobremim">
+                        <img src="./assets/img/hamburguer1.png"
+                            alt="img-sobremim">
+                    </div>
+                    <div class="group-sobremim">
+                        <h1>Olá, somos a Hamburger AC</h1>
+                        <p>Seja bem-vindo ao nosso site</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Enim libero autem laudantium cupiditate quia
+                            at eius voluptatibus tempora reprehenderit
+                            molestias.</p>
+                        <a href="#compras">Fazer compras <i class="bi
+                                bi-cart-fill"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-compras-wrapper" id="compras">
+                <h1 class="title-compras">Mercado Hamburger AC</h1>
+
+                <div class="container-compras">
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <div class="img-card">
+                                <img  src="./assets/img/hamburguer1.png" alt="">
+                            </div>
+                            <div class="description-card">
+                                <h2 class="title-card">Hamburguer</h2>
+                                <p class="value-card">R$ 30,00</p>
+                                <button class="btn-comprar">Adicionar ao carrinho <i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="img-card">
+                                <img  src="./assets/img/burguer2.png" alt="">
+                            </div>
+                            <div class="description-card">
+                                <h2 class="title-card">Hamburguer com pepino</h2>
+                                <p class="value-card">R$ 38,00</p>
+                                <button class="btn-comprar">Adicionar ao carrinho <i class="bi bi-cart-plus"></i></button>
+                            </div>  
+                        </div>
+
+                        <div class="card">
+                            <div class="img-card">
+                                <img  src="./assets/img/burguer3.png" alt="">
+                            </div>
+                            <div class="description-card">
+                                <h2 class="title-card">Hamburguer com um queijo</h2>
+                                <p class="value-card">R$ 36,90</p>
+                                <button class="btn-comprar">Adicionar ao carrinho <i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="img-card">
+                                <img  src="./assets/img/burguer4.png" alt="">
+                            </div>
+                            <div class="description-card">
+                                <h2 class="title-card">X-tudo</h2>
+                                <p class="value-card">R$ 70,00</p>
+                                <button class="btn-comprar">Adicionar ao carrinho <i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="img-card">
+                                <img  src="./assets/img/bebida1.png" alt="">
+                            </div>
+                            <div class="description-card">
+                                <h2 class="title-card">Suco</h2>
+                                <p class="value-card">R$ 15,65</p>
+                                <button class="btn-comprar">Adicionar ao carrinho <i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="img-card">
+                                <img  src="./assets/img/bebida2.png" alt="">
+                            </div>
+                            <div class="description-card">
+                                <h2 class="title-card">Champanhe</h2>
+                                <p class="value-card">R$ 50,00</p>
+                                <button class="btn-comprar">Adicionar ao carrinho <i class="bi bi-cart-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <div class="container-carrinhoCompras-wrapper">
+                <h1 class="title-carrinhoCompras">Carrinho <i class="bi bi-cart4"></i> </h1>
+                <div class="closed-car">
+                    <i class="bi bi-x-square-fill"></i>
+                </div>
+                <div class="container-carrinhoCompras">
+                    <table class="table-car">
+                        <thead>
+                            <tr>
+                                <td>Item</td>
+                                <td>Preço</td>
+                                <td>Quantidade</td>
+                                <td></td>
+                            </tr>
+                        </thead>
+    
+                        <tbody class="container-body-table">
+                            
+                        </tbody>
+                    </table>
+                    
+                </div>
+                <div class="totalandBtnFinish">
+                    <h1>Total: <span class="total-car">R$ 0,00</span></h1>
+                    <button class="finallyCompras">Finalizar Compra</button>
+                </div>
+               
+            </div>
+
+            <section class="container-contato-wrapper" id="contato">
+                <h1 class="title-contato">Contato</h1>
+                <div class="container-contato">
+                    <div class="group-contato">
+                        <div class="group-info-contato">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <h1>Fulano</h1>
+                        </div>
+                        <div class="group-info-contato">    
+                            <i class="bi bi-telephone-fill"></i>
+                            <h1>82828282</h1>
+                        </div>
+                        <div class="group-info-contato">
+                            <i class="bi bi-envelope-at-fill"></i>
+                            <h1>fulanodetal@graiou.com</h1>
+                        </div>
+                    </div>
+                    <div class="group-contato">
+                        <form>
+                            <div class="group-input-form">
+                                <input autocomplete="off" type="text" id="nome">
+                                <label for="nome">Nome</label>
+                            </div>
+                            <div class="group-input-form">
+                                <input autocomplete="off" type="text" id="email">
+                                <label for="email">E-mail</label>
+                            </div>
+
+                            <div class="group-input-form">
+                                <input autocomplete="off" type="text" id="senha">
+                                <label for="senha">Senha</label>
+
+                            </div> <div class="group-input-form">
+                                <input autocomplete="off" type="text" id="senhaConfirm">
+                                <label for="senhaConfirm">Confirmar senha</label>
+                            </div>
+
+                            <div class="group-input-form">
+                                <button class="btn-enviarForm" type="submit">Enviar mensagem<i class="bi bi-check-all"></i></button>
+                            </div>
+    
+                            </form>
+
+                        </div> 
+                        
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <footer class="container-footer-wrapper">
+            <h1 class="title-footer">Hamburger AC</h1>
+            <div class="container-footer">
+                <div class="group-footer">
+                    <a href="#home">Home</a>
+                    <a href="#sobremim">Sobre mim</a>
+                    <a href="#compras">Compras</a>
+                    <a href="#contato">Contato</a>
+                </div>
+                <div class="group-footer">
+                    <a href="#">Voltar</a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
