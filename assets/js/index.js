@@ -1,3 +1,28 @@
+const btnForm = document.querySelector(".btn-enviarForm")
+btnForm.addEventListener("click", (e)=>{
+    e.preventDefault()
+})
+
+
+const menuHamburguer = document.querySelector(".bi-list")
+menuHamburguer.addEventListener("click",()=>{
+    document.querySelector(".navbar").classList.add("menuVisible")
+})
+
+const closeMenuHamburguer = document.querySelector(".bi-x-circle-fill")
+closeMenuHamburguer.addEventListener("click",()=>{
+    document.querySelector(".navbar").classList.remove("menuVisible")
+})
+
+
+const linksMenuHamburguer = document.querySelectorAll(".menuLink")
+linksMenuHamburguer.forEach((linksBtn)=>{
+    linksBtn.addEventListener("click",function(){
+        document.querySelector(".navbar").classList.remove("menuVisible")
+    })
+})
+
+
 const dark = document.querySelector(".bi-moon-stars-fill")
 let sobremim = document.querySelector("#sobremim")
 let compras = document.querySelector("#compras")
@@ -109,7 +134,7 @@ function updateCard() {
 }
 
 function finishCompras(){
-    if(totalCompras ==="0,00" ||"0"){
+    if(totalCompras ==="0,00" || totalCompras===0){
         alert("Carrinho de compras vazio")
     } else {
     alert(  `   
