@@ -32,8 +32,12 @@ html {
   gap: 4rem;
 }
 .navbar-container .container-navbar .navbar a,
-.navbar-container .container-navbar .navbar i {
+.navbar-container .container-navbar .navbar i, .navbar-container .container-navbar .navbar label {
   display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
   cursor: pointer;
   color: #fff;
   text-decoration: none;
@@ -394,7 +398,7 @@ html {
 .container-footer-wrapper {
   width: 100%;
   overflow: hidden;
-  min-height: 30rem;
+  min-height: 15rem;
   background-color: #3A4A61;
   color: #fff;
   transition: all 1s ease;
@@ -420,11 +424,19 @@ html {
 }
 .container-footer-wrapper .container-footer .group-footer a {
   display: block;
-  background-color: #4382E0;
   padding: 1rem;
   border-radius: 0.4rem;
   text-decoration: none;
   color: #fff;
+}
+.container-footer-wrapper .container-footer .group-footer .btn_voltar {
+  background-color: #fff;
+  color: #3A4A61;
+}
+.container-footer-wrapper .copy-footer {
+  text-align: center;
+  margin: 1rem;
+  margin-top: 3rem;
 }
 
 @media (max-width: 1140px) {

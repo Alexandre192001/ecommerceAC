@@ -12,6 +12,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 * {
     margin: 0%;
     padding: 0%;
@@ -44,8 +46,12 @@ html {
             gap: 4rem;
 
             a,
-            i {
+            i,label {
                 display: block;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: .4rem;
                 cursor: pointer;
                 color: #fff;
                 text-decoration: none;
@@ -481,7 +487,7 @@ html {
 .container-footer-wrapper {
     width: 100%;
     overflow: hidden;
-    min-height: 30rem;
+    min-height: 15rem;
     background-color: $color-1;
     color: #fff;
 
@@ -510,13 +516,22 @@ html {
 
             a {
                 display: block;
-                background-color: $color-4;
                 padding: 1rem;
                 border-radius: .4rem;
                 text-decoration: none;
                 color: #fff;
             }
+
+            .btn_voltar{
+                background-color: #fff;
+                color: $color-1;
+            }
         }
+    }
+    .copy-footer{
+        text-align: center;
+        margin: 1rem;
+        margin-top: 3rem;
     }
 }
 
